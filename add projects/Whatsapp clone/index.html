@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="Whatsapp">
+            <h1>WhatsApp</h1>
+        </div>
+        <div class="icons">
+            <div class="icon1  icon"><i class="fa fa-camera" aria-hidden="true"></i></div>
+            <div class="icon2 icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="icon3 icon"><i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div class="navbar header">
+        <div class="tab-links active-links mg" onclick='opentab("skills")'>Chats</div>
+        <div class="tab-links mg" onclick='opentab("experience")'>Updats </div>
+        <div class="tab-links mg" onclick='opentab("education")'>Calls </div>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <div class="chat1">
+                <div class="box1">
+                    <img src="./profile.png" alt="">
+                </div>
+                <div class="box2">
+                    <h3>Balinder (you)</h3>
+                    <h4> <i class="fa fa-check color color" aria-hidden="true"></i>
+                        <i class="fa fa-check color color" aria-hidden="true"></i>
+                        Jai shri radhe
+                    </h4>
+                </div>
+                <div class="box3"> 20/03/2003 </div>
+            </div>
+            <div id="ch"></div>
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience">
+        <ul>
+            <div class="statushead">
+                <div class="status_name">
+                    <h1>Status</h1>
+                </div>
+                <div class="status_more fa fa-ellipsis-v"></div>
+            </div>
+            <div class="scrollright" id="scrollright">
+                <div class="element">
+                    <div class="pic">
+                        <img src="./profile.png" alt="">
+                    </div>
+                    <h4>your name</h4>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div class="tab-contents" id="education">
+        <ul>
+            <div class="chat1">
+                <div class="box1">
+                    <img src="./profile.png" alt="">
+                </div>
+                <div class="box2">
+                    <h3>Balinder (you)</h3>
+                    <h4>Today 4:00am</h4>
+                </div>
+                <div class="box3"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+            </div>
+            <div id="call"></div>
+        </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

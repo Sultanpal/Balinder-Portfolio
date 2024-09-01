@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    margin: auto;
+}
+/* ------------------header -------------- */
+.header,.icons{
+    position: relative;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    padding: 0px 20px;
+}
+.icon{
+    margin-left: 50px;
+}
+.color{
+    color: blue;
+    margin: -6px;
+}
+.icons i{
+    padding: 10px;
+}
+i:hover{
+    cursor: pointer;
+}
+/* --------------header2 ---------------- */
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.mg{
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tab-links{ 
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tab-links::after{
+    content: '';
+    width: 0px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-links::after{
+    width: 50%;
+
+}
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: #fff;
+    font-weight: 14px;
+}
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
+
+
+}
+/* -----------------chat1 -------------- */
+.chat1{
+    /* width: 100%; */
+    /* background-color: #ff004f; */
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.chat1 img,img{
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid rgba(8, 220, 8);
+    padding: 3px;
+}
+.box2{
+    position: relative;
+    width: 90%;
+    /* background-color: blue; */
+    text-align: left;
+    margin-left: 15px;
+    align-items: baseline;
+    padding-top: 10px;
+}
+
+/* ------------status -------------- */
+.statushead{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.scrollright{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: scroll;
+    /* background-color: blue; */
+    /* color: white; */
+}
+.element{
+    width: fit-content;
+    max-width: 200px;
+    min-width: 80px;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width: 0;
+}

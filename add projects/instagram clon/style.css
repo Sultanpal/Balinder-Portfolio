@@ -1,0 +1,186 @@
+
+/* jai shri radhe  */
+*{
+    box-sizing: border-box;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    /* background-color: rgb(147, 147, 168); */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.pd {
+    padding-right: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.niche {
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    background-color: white;
+}
+
+.box {
+    /* background-color: azure; */
+    padding: 5px;
+    margin: 5px;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flax5 {
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(240, 250, 130); */
+    border-radius: 50%;
+    border: 5px solid rgb(63, 238, 72);
+    overflow: hidden;
+}
+.flax5 > img{
+    width: fit-content;
+    height: 96px;
+    margin:0 auto;
+    /* margin-left: 1.5px; */
+    /* padding: 0 0 0 0;
+    border-radius: 50%; */
+}
+.text{
+    text-align: center;
+}
+.post{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.post2{
+    /* align-items: center;   */
+    width: fit-content;
+    margin: 0 auto;
+
+}
+.post2>img{
+    width: 684px;
+}
+.searchbar{
+    /* width: fit-content;
+    margin: 0 auto; */
+
+}
+
+.search{
+    padding: 5px;
+    width: 98%;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 0 10px 0 10px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .g-box{
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  /* padding: 20px; */
+  /* font-size: 30px; */
+  text-align: center;
+  }
+  .g-box>img{
+    width: 200px;
+  }
+
+  .oneside{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .oneside>.box>button{
+    width: 200px;
+    padding: 7px;
+    
+  }
+  body>.back{
+    width: 30%;
+    margin: 0 auto;
+
+  }
+
+  /* real page  */
+  .realbarup {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; 
+}
+  .realbardownL {
+    position: absolute;
+    top: 95vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; 
+}
+  .realbardownR {
+    /* position: absolute;
+    top: 95vh; */
+    align-self:last baseline;
+    /* left: 58%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent; 
+}
+  .back{
+    background-color: azure;
+    height: 98vh;
+    background-image: url(./pngwing.com.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3px;
+    padding-top: 6px;
+  }
+  .back>.float{
+    position: relative;
+    width: 92%;
+    /* height: 96vh; */
+    background-color: transparent;
+
+}
+
+.back>.float>.box{
+    /* position: fixed; */
+    bottom: 0;
+    margin: 0 98%;
+    margin-top: 72vh;
+    /* width: fit-content; */
+  }
+
+  .box1,.box2{
+    padding-bottom: 13px;
+    background-color: transparent;
+    width: fit-content;
+    margin-bottom: 10px;
+  }
+  .box2{
+    margin-bottom: 0;
+  }
+
+
+
+
+
+
+
+  /* animation code of story  */
+   
+  

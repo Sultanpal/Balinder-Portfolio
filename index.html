@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my cv</title>
+    <script src="https://kit.fontawesome.com/5db35ccc60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header or navbar  -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./image/name.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Mywork</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web designer</p>
+                <h1>i'm <span>Balinder</span> <br>from Haryana</h1>
+                <a href="#CV"class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+    <!-- -------about ---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/background phone.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>
+                        Hello, <br> My name is <b>Balinder</b>. I'm a <b>web designer</b>. i learn HTML, CSS, JS. we can
+                        use Bootstrap for more designing. And for learn Backend i used PHP & MYSOL.
+                        <br>I complete my bachlor Ddegree of B.C.A with learning C, C++ and JAVA from basic level. IN
+                        BCA final year i again learn HTML,CSS and java as a subject of class.
+                        <br>Now my perfosion is <b>web designing.</b> i use flas framework for fast & attractive
+                        designig.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-links" onclick='opentab("skills")'>Skill </div>
+                        <div class="tab-links" onclick='opentab("experience")'>Experience </div>
+                        <div class="tab-links" onclick='opentab("education")'>Education </div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>web designer</span><br> &star; designe web app/ web site interface</li>
+                            <li><span>coding in c</span><br>coding in c in basic level</li>
+                            <li><span>coding in c++</span><br>coding in c++ in basic level</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>API</span><br>As a fressher a work with an API. i use an wheather API to learn
+                                using API this is most interested and easy to learn. i make a beautiful web site to use
+                                this API. <a href="./add projects/Balinder weather API/Balinder Weather API.html" target="_blank">take a overview</a></li>
+                            <li><span>CLONE</span><br>For frontEnd developer i make some demo website as a clone
+                                <br>example is : amazone clone , instagram clone , facebook clone.<a href="./add projects/instagram clon/index.html">take a
+                                    overview</a>
+                            </li>
+                            <li><span>REAL TIME MESSENGER</span><br> for work with real time messenger i create a clone
+                                of whatsapp clone. it give me a best experience in my coding / developing life.<a
+                                    href="./add projects/Whatsapp clone/index.html" target="_blank">take a overview</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>BCA degree form KUK universty</li>
+                            <li><span>2020</span><br>12th with commerse stream from HBSE bord</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services ----------------- -->
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>
+                        Hii, i'm Balinderm a budding web designer. i recently ventured into web designm completing
+                        projects such as a digital clockm analog clock, amazone clonem WhatsApp clone, my portfolio
+                        websitem and a weather website, in web designm i focus on creating visually appealling and focus
+                        on creating cisually appealing and user-friendly interfaces. For instancem my Amazone and
+                        WhatsApp clone showcase my ability to replicate complex plateforms. my portfolio site reflcts my
+                        personal style and skills, while the weather website, demonstrates my proficiecny in integrity
+                        real-time data. As i explain to others, my approach involves blending creativity with
+                        functionality to deliver enganging and seamless web experiences.
+                        <br>
+                        <a href="digitalclock">Digital clock</a>,
+                        <a href="analogclone">Analog clock</a>,
+                        <a href="Amazoneclone">Amazone clone</a>,
+                        <a href="Whatsappclone">WhatsApp clone</a>,
+                        <a href="FaceBookclone">facebook clone</a>,
+                        <a href="Instagramclone">Instagram clone</a>
+
+                    <p>
+                        <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>vr design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti vitae quia quisquam harum
+                        provident! Molestias ea ratione voluptas culpa blanditiis tempora quisquam, consequatur expedita
+                        eius reprehenderit, et, maiores inventore impedit.</p>
+                    <a href="#">learn more</a>ō
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Webapp design</h2>
+                    <p>
+                        Webapp design : Web App is just like a website but it can be used as a application in any mobile like android or iphone.
+                        we need a browser to access any website. but if we want to access any webapplication or WebApp we need to install it. that's a major difference only. now take a try and give your feedback.
+                    </p>
+                    <a href="./add projects/Whatsapp clone/index.html">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------- Portfolio  ------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My work</div>
+            <div class="work-list" id="worklist">
+                <div class="work">
+                    <img src="./image/imagesweather5.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Weather API</h3>
+                        <p>Weather API : it is a beautiful project for a web developer. i use some API site and use some styling to design this site. You take a preview and share your experience.this project cover your all over india state and country and city. Note : it is note working on villages. To work with village it is a premium feature.</p>
+                        <a href="file:///C:/Users/DELL/Desktop/Balinder%20weather%20API/Balinder%20Weather%20API.html" alt="codepan" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/clock.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p>Analog Clock : Analog clock one of the easy project. analog clock is a javaScript project. In this project i only use a simple function. which display real time(data). and we also use some design. You take a preview and share your experience.</p>
+                        <a href="./add projects/analog clock/index.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/digital.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>Digital Clock : Digital clock one of the easy project. Digital clock is a javaScript project. In this project i only use a simple function. which display real time(data). and we also use some design. You take a preview and share your experience.</p>
+                        <a href="./add projects/Digital clock/index.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./image/phone1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Drag and Drop</h3>
+                        <p>Drag and Drop : DRag and Drop is a good experience project beacuse in this project we work on mouse opertaion or mouse function . drag and drop mainly mouse function. we easily select any object and drop where we want. now  You take a preview and share your experience. </p>
+                        <a href="./add projects/drag and drop/index.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+		<div class="work">
+                    <img src="./image/imagwhatsapp4.webp" alt="">
+                    <div class="layer">
+                        <h3>WhatsApp clone</h3>
+                        <p>Whatsapp Clone : whatsApp clone is not a Project like, we can count it as a practice set. You can experience it as like as real whatsapp. </p>
+                        <a href="./add projects/whatsapp clone/index.html" target="_blank"><i class="fa-solid fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" onclick="seemorework()" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- --------ccontacat ------  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>sultanpal81@gmial.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91 8053047346</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/sultan.pal.942/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.freelancer.com/u/BalinderPal81"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/sultan_pal_/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/balinder-undefined-8239a5285/"><i
+                                class="fab fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="./Balinder CV.pdf" download class="btn btn2" id="CV">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/246eb595544cfabf12215094dc1cd8fa" method="POST" target="_self">
+                        <input type="text" name="Name" placeholder="Full name" required>
+                        <input type="email" name="email" placeholder="Email" required> 
+                        <textarea name="Message" id="msz" cols="30" rows="10" placeholder="Enter your msz" required></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; made with<i class="fas fa-heart"></i> by Balinder</p>
+        </div>
+    </div>
+    <a class="backToTop" href="#header"> Back To Top</a>
+    <script src="https://smtpjs.com/v3/smtp.js">   
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            // tabname.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+        
+    </script>
+
+</body>
+
+</html>
